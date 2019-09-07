@@ -16,7 +16,7 @@ export default function Footer() {
             >
               pralent
             </p>
-            <p style={{ fontSize: "0.8rem" }}>Practical learning platform.</p>
+            <p style={{ fontSize: "0.8rem" }}>Practical talent platform.</p>
           </NavbarBrand>
           <Row>
             <Col>
