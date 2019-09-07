@@ -8,7 +8,7 @@ const Profile = () => {
     <div className="bg-white py-md-5">
       <Container>
         <Row>
-          <Col md="6" className="my-auto pt-3 pt-md-0">
+          <Col md="6" className="my-auto py-5 py-md-0 order-2 order-md-1">
             <h1 className="font-weight-bold text-dark">
               Customize your profile to focus on what matters most.
             </h1>
@@ -18,7 +18,7 @@ const Profile = () => {
               that awesome profile.
             </p>
           </Col>
-          <Col md="6">
+          <Col md="6" className="order-1 order-md-2">
             <img
               src={profile_hero}
               alt="profile_hero"

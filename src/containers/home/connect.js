@@ -8,7 +8,7 @@ const Connect = () => {
     <div className="bg-white py-md-5">
       <Container>
         <Row>
-          <Col md="6" className="my-auto pt-3 pt-md-0">
+          <Col md="6" className="my-auto py-5 py-md-0 order-2 order-md-1">
             <h1 className="font-weight-bold text-dark">
               Connect with other students.
             </h1>
@@ -18,7 +18,7 @@ const Connect = () => {
               message someone asking a question.
             </p>
           </Col>
-          <Col md="6">
+          <Col md="6" className="order-1 order-md-2">
             <img
               src={profiles}
               alt="profiles"

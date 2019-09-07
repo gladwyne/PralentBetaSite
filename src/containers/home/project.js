@@ -17,7 +17,7 @@ const Project = () => {
               height="auto"
             />
           </Col>
-          <Col md="6" className="my-auto pt-3 pt-md-0">
+          <Col md="6" className="my-auto py-5 py-md-0">
             <h1 className="font-weight-bold text-dark">
               Post about your projects to the community.
             </h1>

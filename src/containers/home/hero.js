@@ -6,8 +6,8 @@ import { IoMdRocket } from "react-icons/io";
 
 function Hero() {
   return (
-    <div className="py-md-5">
-      <Container className="pt-5">
+    <div className="py-md-5 text-md-left text-center">
+      <Container className="pt-md-5 pt-3">
         <Row className="h-100 py-md-5">
           <Col md="6">
             <div className="pb-sm-4">
@@ -41,7 +41,7 @@ function Hero() {
               Sign Up for the Beta <IoMdRocket className="mx-1 my-auto" />
             </Button>
             <p
-              className="mt-md-2"
+              className="mt-2"
               style={{ fontSize: "0.9rem", fontWeight: "600" }}
             >
               Launch of beta expected in Feburary 2020.
