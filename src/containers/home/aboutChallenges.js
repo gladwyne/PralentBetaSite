@@ -12,7 +12,7 @@ export default function aboutCompetition() {
       <Container>
         <Row className="py-5 text-center">
           <Col>
-            <h1 className="py-2 font-weight-bold">
+            <h1 className="py-2 font-weight-extrabold">
               Gain practical skills through online challenges.
             </h1>
             <p className="lead">

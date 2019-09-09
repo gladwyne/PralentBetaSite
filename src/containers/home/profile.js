@@ -9,7 +9,7 @@ const Profile = () => {
       <Container>
         <Row>
           <Col md="6" className="my-auto py-5 py-md-0 order-2 order-md-1">
-            <h1 className="font-weight-bold text-dark">
+            <h1 className="font-weight-extrabold text-dark">
               Customize your profile to focus on what matters most.
             </h1>
             <p className="lead">

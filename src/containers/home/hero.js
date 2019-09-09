@@ -9,13 +9,13 @@ function Hero() {
     <div className="py-md-5 text-md-left text-center">
       <Container className="pt-md-5 pt-3">
         <Row className="h-100 py-md-5">
-          <Col md="6">
+          <Col md="7">
             <div className="pb-sm-4">
               <h1
                 style={{
                   lineHeight: "1.1",
                   fontSize: "2.9rem",
-                  fontWeight: "700"
+                  fontWeight: "800"
                 }}
                 className="text-dark"
               >
@@ -40,14 +40,8 @@ function Hero() {
             >
               Sign Up for the Beta <IoMdRocket className="mx-1 my-auto" />
             </Button>
-            <p
-              className="mt-2"
-              style={{ fontSize: "0.9rem", fontWeight: "600" }}
-            >
-              Launch of beta expected in Feburary 2020.
-            </p>
           </Col>
-          <Col md="6" className="my-auto">
+          <Col md="5" className="my-auto">
             <img
               src={HeroImg}
               alt="hero-img"

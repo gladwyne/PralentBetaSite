@@ -18,7 +18,7 @@ const Jobs = () => {
             />
           </Col>
           <Col md="6" className="my-auto py-5 py-md-0">
-            <h1 className="font-weight-bold text-dark">
+            <h1 className="font-weight-extrabold text-dark">
               Land your dream internship today.
             </h1>
             <p className="lead">
