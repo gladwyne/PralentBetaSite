@@ -37,6 +37,10 @@ export default class MainNavbar extends React.Component {
               style={{ fontSize: "1.75rem" }}
             >
               pralent
+              <sup className="text-primary" style={{ fontSize: "0.85rem" }}>
+                {" "}
+                BETA
+              </sup>
             </p>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} className="border-0" />
