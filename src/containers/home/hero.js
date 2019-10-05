@@ -6,8 +6,11 @@ import { IoMdRocket } from "react-icons/io";
 
 function Hero() {
   return (
-    <div className="py-md-5 text-md-left text-center">
-      <Container className="pt-md-5 pt-3">
+    <div
+      className="py-md-5 text-md-left text-center"
+      style={{ backgroundColor: "rgb(235, 242, 255)" }}
+    >
+      <Container className="pt-md-3">
         <Row className="h-100 py-md-5">
           <Col md="7">
             <div className="pb-sm-4">
