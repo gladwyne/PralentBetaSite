@@ -35,6 +35,17 @@ export default function Footer() {
                 Sign Up for the Beta <IoMdRocket className="mx-1 my-auto" />
               </Button>{" "}
               <div className="mt-3">
+                <small>
+                  Contact{" "}
+                  <a
+                    href="mailto:info@pralent.com"
+                    className="text-decoration-none"
+                  >
+                    info@pralent.com
+                  </a>{" "}
+                  for more information
+                </small>
+                <br />
                 <small>Copyright © {year} Pralent. All rights reserved.</small>
               </div>
             </Col>
